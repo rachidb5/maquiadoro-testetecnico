@@ -1,0 +1,55 @@
+
+/* Classe para todo o corpo do projeto */
+#corpo {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 1px;
+}
+
+/* Classes da barra superior */
+#bar {
+    padding: 0 20px 0 20px;
+}
+
+/* Classes do sinal */
+#signal {
+    display: flex;
+    flex-direction: row;
+    width: 16px;
+    margin-top: 5px;
+}
+.signal-1{
+    width: 3px;
+    height: 8px;
+    background-color:black;
+    border-radius: 2px;
+}
+
+.signal-2{
+    width: 3px;
+    height: 10px;
+    background-color:black;
+    border-radius: 2px;
+}
+.signal-3{
+    width: 3px;
+    height: 12px;
+    background-color:black;
+    border-radius: 2px;
+}
+.signal-4{
+    width: 3px;
+    height: 14px;
+    background-color:black;
+    border-radius: 2px;
+}
+
+/* Classes do sinal de wifi */
+
+.wifi-image {
+  width: 20px;
+  height: 20px;
+}
+
+/* Classes */
