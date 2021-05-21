@@ -1,5 +1,5 @@
 
-/* Classe para todo o corpo do projeto */
+/* Corpo do projeto */
 #corpo {
     width: 375px;
     margin-left: auto;
@@ -7,12 +7,12 @@
     border: solid black 1px;
 }
 
-/* Classes da barra superior */
+/* barra superior */
 #bar {
     padding: 0 20px 0 20px;
 }
 
-/* Classes do sinal */
+/* sinal */
 #signal {
     display: flex;
     flex-direction: row;
@@ -52,4 +52,20 @@
   height: 20px;
 }
 
-/* Classes */
+/* Bateria*/
+
+#battery {
+    width: 22px;
+    height: 12px;
+    border: solid black 1px;
+    margin-top: 7px;
+    border-radius: 2px;
+}
+
+#inner-battery {
+    width: 18px;
+    height: 8px;
+    background-color: black;
+    margin-top: 1px;
+    margin-left: 1px;
+}
