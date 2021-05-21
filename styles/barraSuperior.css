@@ -8,6 +8,11 @@ a {
 body {
     font-family: 'DM Sans', sans-serif;
 }
+
+i{
+    color: black;
+}
+
 #corpo {
     width: 375px;
     margin-left: auto;
