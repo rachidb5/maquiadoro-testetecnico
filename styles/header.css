@@ -1,0 +1,23 @@
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+#header {
+    padding-right: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+li {
+    padding: 15px;
+    font-size: 18px;
+    display:block;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform-origin:right top;
+}
