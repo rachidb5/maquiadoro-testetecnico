@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .search-div {
 width:345px;
+}
+
+.products-container {
+  border-radius: 30px 30px 0 0;
+  background: #F6F6F6;
 }
 
 .products-list{
@@ -9,33 +16,70 @@ width:345px;
 }
 
 .items {
-    position: relative;
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    transition: all 0.2s;
-    transform: scale(0.98);
-    will-change: transform;
-    user-select: none;
-    cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+h5 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+h4 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+}
+
+.scrolling-wrapper-flexbox {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
   }
 
-  .items.active {
-    background: rgba(255,255,255,0.3);
-    cursor: grabbing;
-    cursor: -webkit-grabbing;
-    transform: scale(1);
-  }
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
 
-  .item {
-    display: inline-block;
-    background: skyblue;
-    min-height: 250px;
-    min-width: 400px;
-    margin: 2em 1em;
-    @media screen and (max-width: 500px) {
-      min-height: 200px;
-      min-width: 200px;
-    }
-  }
+.carde {
+  width: 300px;
+  height: 180px;
+  flex: 0 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.product-title {
+  width: 150px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.shop-now {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #0ACF83; 
+}
+
+.fone-img {
+  width: 120px;
+  height: 120px;
+}
