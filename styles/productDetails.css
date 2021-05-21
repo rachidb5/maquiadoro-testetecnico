@@ -1,0 +1,48 @@
+.price {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0ACF83;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .card-images {
+    width: 285px;
+    height: 391px;
+    flex: 0 0 auto;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .scrolling-wrapper-flexbox-details {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    }
+  
+  .scrolling-wrapper-flexbox-details::-webkit-scrollbar {
+    display: none;
+  }
+
+  .title-details-section {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .gray {
+      background-color: #e5e5e5;
+  }
+  
