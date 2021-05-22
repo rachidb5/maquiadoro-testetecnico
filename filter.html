@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="styles/barraSuperior.css">
         <link rel="stylesheet" href="styles/productDetails.css">
         <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/filter.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">     
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <title>Audio</title>
@@ -36,6 +37,86 @@
             </div><!--Fim da Barra de Status-->
             <h6 class="ml-4 mt-4 product-category">Headphone</h6>
             <h1 class="ml-4">TMA Wireless</h1>
+
+            <div class="scrolling-wrapper-flexbox mt-3 mb-4">
+                <button class="btn btn-outline-secundary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fas fa-sliders-h"></i> Filter
+                </button>
+                <div class="item-filter ml-2 mt-2">Newest</div>
+                <div class="item-filter ml-3 mt-2">Popularity</div>
+                <div class="item-filter ml-3 mt-2 text-nowrap">Most Expensive</div>  
+            </div>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <h2>Filter</h2>
+                    <h5>Category</h5>
+                    <div class="scrolling-wrapper-flexbox mt-3 mb-4">
+                        <div class="item mr-2">Headphone</div>
+                        <div class="item mr-2">Headband</div>
+                        <div class="item mr-2">Earpads</div>
+                        <div class="item mr-2">Cable</div>
+                    </div>
+                    <h5>Sort By</h5>
+                    <div class="row mb-3">
+                        <div class="sort-category ml-4">Popularity</div>
+                        <div class="sort-category ml-4">Newest</div>
+                        <div class="sort-category ml-4">Oldest</div>
+                        <div class="sort-category ml-4">High Price</div>
+                        <div class="sort-category ml-4">Low Price</div>
+                        <div class="sort-category ml-4">Review</div>
+                    </div>
+                    <h5>Price Range</h5>
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Min Price">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Max Price">
+                        </div>
+                    </div>
+                    <div class="shop-button mt-4">
+                        <button type="button" class="btn btn-success btn-lg btn-block">Aplly Filter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products-container mt-3 pt-4 pb-3">
+                <div class="row ml-4 mt-3">
+                    <div class="carde2 mr-3">
+                        <div>
+                            <img src="./img/fone.png" class="fone-img ml-3 mt-2">
+                        </div>
+                        <h4 class="product-title-featured mt-3 ml-2">TMA-2 HD Wireless</h4>
+                        <p class="price ml-2">USD 350</p>
+                    </div>
+                    <div class="carde2 mr-3">
+                        <div>
+                            <img src="./img/fone.png" class="fone-img ml-3 mt-2">
+                        </div>
+                        <h4 class="product-title-featured mt-3 ml-2">TMA-2 HD Wireless</h4>
+                        <p class="price ml-2">USD 350</p>
+                    </div>
+                </div>
+                <div class="row ml-4 mt-3">
+                    <div class="carde2 mr-3">
+                        <div>
+                            <img src="./img/fone.png" class="fone-img ml-3 mt-2">
+                        </div>
+                        <h4 class="product-title-featured mt-3 ml-2">TMA-2 HD Wireless</h4>
+                        <p class="price ml-2">USD 350</p>
+                    </div>
+                    <div class="carde2 mr-3">
+                        <div>
+                            <img src="./img/fone.png" class="fone-img ml-3 mt-2">
+                        </div>
+                        <h4 class="product-title-featured mt-3 ml-2">TMA-2 HD Wireless</h4>
+                        <p class="price ml-2">USD 350</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="./script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 </html>

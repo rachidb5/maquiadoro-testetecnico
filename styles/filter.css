@@ -1,0 +1,23 @@
+.item-filter {
+    max-width: 200px;
+    max-height: 20px;
+    flex-wrap: nowrap ;
+    border-radius: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+
+  #filter-drop {
+      width: 375px;
+  }
+
+  .sort-category {
+    border: 1px solid #7F7F7F;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+  }
