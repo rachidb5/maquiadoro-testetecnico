@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/barraSuperior.css">
+        <link rel="stylesheet" href="styles/productDetails.css">
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">     
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <title>Audio</title>
+    </head>
+    <body>
+        <div id="corpo">
+            <div id="bar" class="d-flex justify-content-between"><!--Inicio da Barra de Status-->
+                <span id="hora"></span>
+                <div id="bar-data" class="d-flex justify-content-between">
+                    <div id="signal" class="d-flex justify-content-between align-items-baseline">
+                        <div class="signal-1"></div>
+                        <div class="signal-2"></div>
+                        <div class="signal-3"></div>
+                        <div class="signal-4"></div>
+                    </div>
+                    <div id="wifi">
+                        <img src="img/Frame 1.png" class="wifi-image">
+                    </div>
+                    <div id="battery">
+                        <div id="inner-battery"></div>
+                    </div>
+                </div>
+            </div><!--Fim da Barra de Status-->
+            <div class="d-flex justify-content-between ml-3 mr-3"><!--Inicio da Barra de Status-->
+                <a><i class="fas fa-chevron-left"></i></a>
+                <a><i class="fas fa-shopping-cart"></i></a>
+            </div><!--Fim da Barra de Status-->
+            <div class="product-info ml-3 mt-4">
+                <h4 class="price">USD 350</h4>
+                <h2 class="product-name">TMA-2 HD WIRELESS</h2>
+            </div>
+            <div class="scrolling-wrapper-flexbox-details mt-3 mb-4">
+                <div class="mr-4">
+                    <a href="./productDetailsOverview.html" class="product-menu-item">Overview</a>
+                </div>
+                <div class="mr-4">
+                    <a href="./productDetailsFeatures.html" class="product-menu-item">Features</a>
+                </div>
+                <div class="mr-4">
+                    <a  class="product-menu-item">Specification</a>
+                </div>
+            </div>
+            <h5 class="feature-title ml-4">Highly Detailed Audio</h5>
+            <div class="ml-3">
+                <p  class="text-review ml-2 mt-3">The speaker unit contains a diaphragm that is precision-grown from NAC Audio bio-cellulose,
+                    making it stiffer, lighter and stronger than regular PET speaker units, 
+                    and allowing the sound-producing diaphragm to vibrate without the levels of distortion found in other
+                    speakers.
+                </p>
+                <p  class="text-review ml-2 mt-3">The speaker unit contains a diaphragm that is precision-grown from NAC Audio bio-cellulose, 
+                    making it stiffer, lighter and stronger than regular PET speaker units, 
+                    and allowing the sound-producing diaphragm to vibrate without the levels of distortion found 
+                    in other speakers.
+                </p>
+            </div>
+            <div class="shop-button mt-3 mb-3">
+                <button type="button" class="btn btn-success btn-lg btn-block">Add To Cart</button>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

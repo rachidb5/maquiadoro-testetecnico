@@ -47,10 +47,12 @@
     font-weight: normal;
     padding-right: 2px;
     padding-left: 2px;
+    color: black;
   }
   
-  .product-menu-item:hover {
+  .product-menu-item:active {
       text-decoration: underline #0ACF83;
+      color: black;
   }
   .shop-button {
       width: 320px;
