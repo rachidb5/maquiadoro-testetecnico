@@ -96,6 +96,24 @@ h4 {
   flex-direction: column;
 }
 
+.item {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  color: #7F7F7F;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.item:hover {
+  background-color: #0ACF83;
+  color: white;
+}
+
 .product-title-featured {
   font-family: DM Sans;
   font-style: normal;
