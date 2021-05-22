@@ -125,9 +125,9 @@ h4 {
 
 .price {
   font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.2px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #0ACF83; 
 }
