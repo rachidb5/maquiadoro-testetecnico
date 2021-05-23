@@ -65,8 +65,16 @@
   }
 
   .text-review {
-      width: 330px;
+      width: 275px;
+      margin-left: 60px;
       text-align: left;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #000000;
   }
 
   .user-name {
@@ -92,4 +100,16 @@
   .avatar-review {
     width: 40px;
     height: 40px;
+  }
+
+  .link-see-all-reviews {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7F7F7F;
+
   }
