@@ -1,0 +1,11 @@
+.signal {
+    border: solid black 1px;
+    border-radius: 4px;
+}
+
+.cart-products{
+    height: 610px;
+}
+.info-cart-products{
+    width: 235px;
+}
