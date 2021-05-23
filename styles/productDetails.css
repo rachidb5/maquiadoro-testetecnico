@@ -34,7 +34,7 @@
   }
 
   .gray {
-      background-color: #e5e5e5;
+      background-color: #f6f6f6;
   }
 
   .product-menu-item {
@@ -87,4 +87,9 @@
 
   .margem-aux {
       margin-bottom: 80px;
+  }
+
+  .avatar-review {
+    width: 40px;
+    height: 40px;
   }
