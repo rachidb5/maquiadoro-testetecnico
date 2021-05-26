@@ -111,5 +111,18 @@
     text-align: center;
     letter-spacing: 0.2px;
     color: #7F7F7F;
+  }
 
+  .img-review {
+    width: 64px;
+    height: 64px;
+    background: url(image.png), #FFFFFF;
+    border: 0.811688px solid #BABABA;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .img-review img{
+    width: 64px;
+    height: 64px;
   }

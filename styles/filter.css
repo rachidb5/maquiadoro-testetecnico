@@ -21,3 +21,8 @@
     padding: 5px;
     margin-top: 5px;
   }
+
+  .selected-sort {
+    background-color: #0ACF83;
+    color: white;
+  }
